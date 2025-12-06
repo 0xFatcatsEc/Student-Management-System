@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --primary-background: #f5f5f5;
+    --navbar-background: #fbfcfdb9;
+    --background-button: #3c83f6;
+    --header-color: #0f1729;
+    --font-color: #161d2f;
+    --secondary-font-color: #555555;
+    --icon-backhround: #cadbf8;
+    --icon-color: #5c97f7;
+    --button-hover: #33ccbf;
+    --border: #88888833;
+    --boxes-background: #ffffff;
+}
+
+.form-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-content {
+    background-color: var(--boxes-background);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    height: auto;
+}
+
+form h2 {
+    color: var(--header-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header-content span {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--icon-color);
+    background-color: var(--icon-backhround);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.header-content p {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--font-color);
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+}
+
+.input-container i {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: var(--secondary-font-color);
+    font-size: 16px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--font-color);
+    font-size: 14px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-forgot input[type="checkbox"] {
+    width: 20px; 
+    height: 20px;  
+    accent-color: #007BFF;
+    cursor: pointer;   
+}
+
+.label-fogot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.remember-forgot a {
+    color: var(--icon-color);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--background-button);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-container input:focus {
+    border-color: var(--icon-color);
+    outline: none;
+}
+
+.dont-have-account {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: var(--secondary-font-color);
+}
+
+.dont-have-account a {
+    color: var(--icon-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-to-home {
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--secondary-font-color);
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary-background);
+    display: grid;
+    place-items: center ;
+}
+
+:root {
+    --primary-background: #f5f5f5;
+    --navbar-background: #fbfcfdb9;
+    --background-button: #3c83f6;
+    --header-color: #0f1729;
+    --font-color: #161d2f;
+    --secondary-font-color: #555555;
+    --icon-backhround: #cadbf8;
+    --icon-color: #5c97f7;
+    --button-hover: #33ccbf;
+    --border: #88888833;
+    --boxes-background: #ffffff;
+}
+

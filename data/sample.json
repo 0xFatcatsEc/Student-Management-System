@@ -1,0 +1,10 @@
+{
+  "students": [
+    { "id": 1, "name": "Ana Santos", "email": "ana@example.com", "course": "Mathematics" },
+    { "id": 2, "name": "Jose Cruz", "email": "jose@example.com", "course": "Physics" }
+  ],
+  "courses": [
+    { "id": 101, "name": "Mathematics" },
+    { "id": 102, "name": "Physics" }
+  ]
+}
