@@ -35,6 +35,8 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 30px;
+    width: auto;
+    padding: 20px;
 }
 
 .header-content {
@@ -49,7 +51,8 @@ body {
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 450px;
+    width: auto;
+    /* width: 500px; */
     height: auto;
 }
 
@@ -113,6 +116,10 @@ form h2 {
     margin-bottom: 20px;
 }
 
+/* input[type="email"] {
+    width: auto;
+} */
+
 .remember-forgot input[type="checkbox"] {
     width: 20px; 
     height: 20px;  
@@ -132,6 +139,12 @@ form h2 {
     color: var(--icon-color);
     text-decoration: none;
     font-size: 14px;
+}
+
+.remember-forgot {
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .login-button {
@@ -169,4 +182,22 @@ form h2 {
     text-align: center;
     text-decoration: none;
     color: var(--secondary-font-color);
+}
+
+/* RESPONSIVE EFFECTS */
+
+@media (max-width: 420px) {
+    .forget-section a {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 410px) {
+    .forget-section a {
+        font-size: 11px;
+    }
+
+    .label-fogot label {
+        font-size: 15px;
+    }
 }
