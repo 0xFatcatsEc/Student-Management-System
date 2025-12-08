@@ -321,6 +321,12 @@ footer {
 
 /* LANDING PAGE RESPONSIVE EFFECTS */
 
+@media (max-width: 990px) {
+    .path-item {
+        width: 40%;
+    }
+}
+
 @media (max-width: 660px) {
 
     .path-item {
