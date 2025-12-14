@@ -18,29 +18,34 @@
     <div class="signup-container">
         <h2>Sign up</h2>
         <form action="">
-            <div class="form-content">
-                <div class="input-group">
+            <div class="form-container">
+                <div class="email-content">
                     <label for="email">Email</label>
-                    <div class="email-input">
-                        <span><i class="fa-solid fa-envelope"></i></span>
-                        <input type="email" placeholder="Enter your email">
+                    <div class="input-icon email-icon-div">
+                        <span class="email-icon"><i class="fa-solid fa-envelope"></i></span>
+                        <input type="email" placeholder="Enter your email" class="email-input" required/>
                     </div>
                 </div>
-                <div class="input-group">
+                <div class="password-content">
                     <label for="password">Password</label>
-                    <div class="password-input">
-                        <span><i class="fa-regular fa-eye"></i></span>
+                    <div class="input-icon password-icon-div">
+                        <span class="password-icon"><i class="fa-regular fa-eye"></i></span>
                         <input type="password" placeholder="Enter your password">
                     </div>
                 </div>
-                <div class="input-group">
-                    <label for="confirm-password">Confirm Password</label>
-                    <div class="confirm-password-input">
+                <div class="confirm-password-content">
+                    <label for="confirm-password ">Confirm Password</label>
+                    <div class="input-icon confirm-password-icon-div">
+                        <span class="confirm-password-icon"><i class="fa-regular fa-eye"></i></span>
                         <input type="password" placeholder="Confirm your password">
                     </div>
                 </div>
             </div>
+            <button class="create-account">Create Account</button>
+            <p class="link-login">Already have an account? <a href="login-signup-form.html">Log in</a></p>
         </form>
     </div>
+    <p class="back-to-home"><a href="landing-page.html">Back to Home</a></p>
+    <script src="../assets/js/singup-section.js"></script>
 </body>
 </html>
